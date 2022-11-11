@@ -25,3 +25,23 @@ The following optional packages are required to run Inflam's unit tests:
 - [pytest](https://docs.pytest.org/en/stable/) - Inflam's unit tests are written using pytest
 - [pytest-cov](https://pypi.org/project/pytest-cov/) - Adds test coverage stats to unit testing
 
+## Installation
+
+- Clone the repository using command ''git clone repo'' where [repo](https://github.com/kj5248/python-intermediate-inflammation)
+- Install using ''pip install -e .''
+- Use ''pytest'' to check everything was correctly installed
+
+## Usage
+
+- Different parts of the system can be run using the ''python'' command alongside the desired file
+- Some of the files have additional arguments which can be checked using --h to bring up a list of possible arguments
+
+## Contribution
+
+- Create an issue and assign to yourself and add corresponding tag
+- After editing and improving can then submit a pull request
+
+## Contact
+
+- If it is in relation to a bug in the code an issue can be created detailing the problem and assigned the author or other administrator
+- Alternatively running ''git show v1.0.0'' will provide the authors name and email for contact purposes
