@@ -67,6 +67,7 @@ def patient_normalise(data):
     return normalised
 
 class Observation:
+    """Observations for an inflammation study."""
     def __init__(self, day, value):
         self.day = day
         self.value = value
@@ -75,6 +76,7 @@ class Observation:
         return str(self.value)
 
 class Person:
+    """A person in an inflammtion study. Parent of both doctor and patient classes."""
     def __init__(self, name):
         self.name = name
 
