@@ -39,6 +39,9 @@ The following optional packages are required to run Inflam's unit tests:
 
 - Different parts of the system can be run using the ''python'' command alongside the desired file
 - Some of the files have additional arguments which can be checked using --h to bring up a list of possible arguments
+- The main run file is inflammtion-analysis.py, simple runs of this file can be done by:
+        - ''python3 inflammation-analysis.py --view record --patient ## data/inflammation-##.csv''
+        - where ## is a patient number
 
 ## Contribution
 
