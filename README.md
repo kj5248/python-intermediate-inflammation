@@ -28,7 +28,11 @@ The following optional packages are required to run Inflam's unit tests:
 ## Installation
 
 - Clone the repository using command ''git clone repo'' where [repo](https://github.com/kj5248/python-intermediate-inflammation)
-- Install using ''pip install -e .''
+- Change directory into the repository folder
+- Create a virtual environment here with ''python3 -m venv venv''
+- Activate the environment with ''source venv/bin/activate''
+- Install the repository requirements with ''pip3 install -r requirements.txt''
+- Install local repository to environment using ''pip install -e .''
 - Use ''pytest'' to check everything was correctly installed
 
 ## Usage
