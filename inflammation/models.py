@@ -67,7 +67,12 @@ def patient_normalise(data):
     return normalised
 
 class Observation:
-    """Observations for an inflammation study."""
+    """Observations for an inflammation study.
+
+    :param day: integer value of day of observation.
+    :param value: numerical value of observation inflammation
+    :returns: integer self.day  and float self.value.
+    """
     def __init__(self, day, value):
         self.day = day
         self.value = value
@@ -76,7 +81,11 @@ class Observation:
         return str(self.value)
 
 class Person:
-    """A person in an inflammtion study. Parent of both doctor and patient classes."""
+    """A person in an inflammtion study. Parent of both doctor and patient classes.
+    
+    :param name: a string of patient name or identifier e.g. "Bob"
+    :return: string self.name 
+    """
     def __init__(self, name):
         self.name = name
 
@@ -84,7 +93,10 @@ class Person:
         return self.name
 
 class Patient(Person):
-    """A patient in an inflammation study."""
+    """A patient in an inflammation study.
+    
+    Inherits from class Person.
+    """
     def __init__(self, name, observations=None):
         super().__init__(name)
         self.observations = []
@@ -104,7 +116,10 @@ class Patient(Person):
         return new_observation
 
 class Doctor(Person):
-    """A doctor in an inflammation study."""
+    """A doctor in an inflammation study.
+    
+    Inherits from class Person.
+    """
     def __init__(self, name):
         super().__init__(name)
         self.patients = []
