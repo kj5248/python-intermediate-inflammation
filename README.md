@@ -45,3 +45,14 @@ The following optional packages are required to run Inflam's unit tests:
 
 - If it is in relation to a bug in the code an issue can be created detailing the problem and assigned the author or other administrator
 - Alternatively running ''git show v1.0.0'' will provide the authors name and email for contact purposes
+
+## Citations
+
+- The online course that led to the creation of this work can be found at:
+        - https://ukaea-rse-training.github.io/python-intermediate-development/00-setting-the-scene/index.html
+
+## Credits
+
+- Credit goes to the initial creators the UKAEA RSE team and The Carpentries Incubator for the setup of this repository and the lessons
+- Credit to repository owner: kj5248
+- Credit to collaborators: agwhittle, dsimfukwe and Fitz1309.
