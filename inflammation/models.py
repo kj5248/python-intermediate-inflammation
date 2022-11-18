@@ -117,5 +117,11 @@ class Doctor(Person):
                 return
         self.patients.append(new_patient)
 
+    def remove_patient(self, name):
+        # A method to remove a patient
+        for patient in self.patients:
+            if patient.name == name.name:
+                return
+        self.patients.append(name)
 
 
