@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-"""Software for managing and analysing patients' inflammation data in our imaginary hospital."""
+"""Software for managing and analysing patients' inflammation data
+ in our imaginary hospital."""
 
 import argparse
 
@@ -31,10 +32,12 @@ def main(args):
 
         elif args.view == 'record':
             patient_data = inflammation_data[args.patient]
-            observations = [models.Observation(day, value) for day, value in enumerate(patient_data)]
+            observations = [models.Observation(day, value) for day,
+                            value in enumerate(patient_data)]
             patient = models.Patient('UNKNOWN', observations)
 
             views.display_patient_record(patient)
+
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(
